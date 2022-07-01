@@ -3,8 +3,8 @@
 }
 
 :root {
-    --primary-color: green (59, 31, 125);
-    --secondary-color:rgb(212, 126, 212);
+    --primary-color:rgb(17, 147, 65);
+    --secondary-color:rgb(243, 113, 7);
 }
 
 #head{
@@ -52,5 +52,31 @@
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: left;
+    text-align: center;
+}
+/* double check */
+.questions p{
+    font-size: 30px;
+    color: var(--primary-color);
+    font-weight: bold; 
+    width: 70%;
+    color: black;
+}
+
+.btnq{
+    border: none;
+    width: 35%;
+    padding: 10px 19px;
+    background: var(--primary-color);
+    font-size: 1.1rem;
+    border-radius: 12px; 
+    top: -3px;
+    box-shadow: 0 4px rgb(231, 125, 4);
+    cursor: pointer;
+    text-align: center;
+    color: beige;
+}
+
+.btnq:hover{
+    background-color: var(--secondary-color) ;
 }
