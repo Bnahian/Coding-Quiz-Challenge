@@ -14,6 +14,13 @@
     padding: 20px 50px;
 }
 
+#head p {
+    color: var(--secondary-color);
+    margin: 5px 0 20px;
+    font-size: 1.5rem;   
+    font-weight: bold;   
+}
+
 /* Main page styling    */
 .main-page{
     text-align: center;
@@ -63,7 +70,7 @@
     color: black;
 }
 
-.btnq{
+/* .btnq{
     border: none;
     width: 35%;
     padding: 10px 19px;
@@ -75,8 +82,89 @@
     cursor: pointer;
     text-align: center;
     color: beige;
-}
+} */
 
 .btnq:hover{
     background-color: var(--secondary-color) ;
+}
+
+/*style for result section*/
+.border{
+    padding: 10px;
+    border-top:2px solid grey;
+    width: 70%;
+}
+
+.result{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 340px;
+}
+
+#result p{
+    font-size: 30px;
+    color: grey; 
+    width: 70%;
+}
+
+.btnq{
+    outline: none;
+    border: none;
+    width: 25%;
+    padding: 10px 15px;
+    background: var(--primary-color);
+    font-size: 1.1rem;
+    border-radius: 12px;
+    top: -3px;
+    box-shadow: 0 3px gray;
+    margin-top: 20px;
+    text-align: center;
+    color:beige
+}
+
+/*style for submit form*/
+#submit-form{
+    margin-left: 340px;
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+#initial{
+    border: 1.5px solid var(--primary-color);
+    padding: 7px 15px;
+}
+
+.load-scores{
+    padding: 100px 55px;
+    margin-left: 340px;
+}
+
+.high{
+    padding-left: 22px;
+}
+
+/*style for view score section*/
+.list-item{
+    font-size: 18px;
+    width: 45%;
+}
+
+#listitems{
+    background-color:  rgb(234, 234, 240);
+    margin-bottom: 4px;
+}
+
+.hscores-gobtn{
+    width : 15%;
+    margin :5px 22px;
+}
+
+.hscores-clbtn{
+    width : 25%;
+    margin :5px 16px;
+}
+
+#viewscore{
+    cursor: pointer;
 }
