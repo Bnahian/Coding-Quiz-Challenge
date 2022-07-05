@@ -63,6 +63,7 @@ var header = document.getElementById("head");
 var loadHighscores = document.createElement("div");
 var gobackButton = document.createElement("button");
 var clearButton = document.createElement("button");
+var timerEl = document.querySelector("#timer");
 var olistItem;
 var clearButton;
 var correctAns="";
@@ -74,10 +75,17 @@ var myVar="";
 var Highscore = 0;
 
 //function to keep track of time
-var setTime = function () {
+var myTimer = function() {
     timeleft = 30;
 
-
-
+var timercheck = setInterval(function() {
+    timerEl.innerText = timeleft;
+        timeleft--
 
 }
+
+
+  { 
+    
+}
+};
