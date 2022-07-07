@@ -93,11 +93,11 @@ function countdown() {
             timeLeft.textContent = "Time is up!"; 
             // if time is up, show on score board content instead of "all done!"
             finish.textContent = "Time is up!";
-            gameOver();
+            ;
 
         } else  if(questionCount >= questArray.length +1) {
             clearInterval(timerInterval);
-            gameOver();
+            ;
             } 
 }, 1000);
 }
